@@ -39,10 +39,16 @@ dependencies:
   # Flame game engine dependencies
   flame: ^1.21.0
   flame_audio: ^2.1.7
-  flame_forge2d: ^0.18.0+1
-  flame_tiled: ^1.21.0
-  flame_svg: ^1.10.8
-  flame_network_assets: ^0.3.0
+  flame_forge2d: ^0.18.0+1 # Not strictly needed for this request but present
+  flame_tiled: ^1.21.0 # Not strictly needed for this request but present
+  flame_svg: ^1.10.8 # Not strictly needed for this request but present
+  flame_network_assets: ^0.3.0 # Not strictly needed for this request but present
+
+  # For saving high scores
+  shared_preferences: ^2.2.3
+
+  # For optional monetization
+  google_mobile_ads: ^5.1.0
 
 dev_dependencies:
   flutter_test:
